@@ -1,3 +1,5 @@
+**Update:** Problem is fixed with Hoxton SR1
+
 Older Config Clients stop working with new Hoxton based Config Server
 
 ```
@@ -32,10 +34,10 @@ With the issue https://github.com/spring-cloud/spring-cloud-config/issues/1169 i
 
 Here is a table with checked compatibility:
 
-|  Config Client Version  | Config Server - SB 2.1 - Greenwich | Config Server - SB 2.2 - Hoxton |
-| ------------------------| ------------- |-------------|
-| SB 1.5.x - Edgware      | OK | ERROR |
-| SB 2.0.x - Finchley.SR2 | OK | ERROR |
-| SB 2.0.x - Finchley.SR3 | OK | OK |
-| SB 2.0.x - Finchley.SR4 | OK | OK |
-| SB 2.1.x - Greenwich    | OK | OK |
+|  Config Client Version  | Config Server - SB 2.1 - Greenwich | Config Server - SB 2.2 - Hoxton | Config Server - SB 2.2 - Hoxton SR1 |
+| ------------------------| ------------- |-------------|-------------|
+| SB 1.5.x - Edgware      | OK | ERROR | OK |
+| SB 2.0.x - Finchley.SR2 | OK | ERROR | OK |
+| SB 2.0.x - Finchley.SR3 | OK | OK | OK |
+| SB 2.0.x - Finchley.SR4 | OK | OK | OK |
+| SB 2.1.x - Greenwich    | OK | OK | OK |
